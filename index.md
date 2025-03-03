@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+# Alice Margonari
+### Ph.D. Student in Marketing | Bocconi University
 <style>
     /* Adjust profile picture size */
     .profile-pic {
@@ -22,8 +24,6 @@ title: Home
         display: none;  /* Hides the duplicate name */
     }
 </style>
-# Alice Margonari
-### Ph.D. Student in Marketing | Bocconi University
 <!-- Profile Picture -->
 <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
      alt="Alice Margonari" 

@@ -8,7 +8,7 @@ title: Home
     .profile-pic {
         display: block;
         margin: 20px auto;
-        width: 200px;  /* Adjust this size if needed */
+        width: 400px;  /* Adjust this size if needed */
         height: auto;
         border-radius: 10px; /* Keeps square corners, remove for round image */
     }

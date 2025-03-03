@@ -3,9 +3,31 @@ layout: default
 title: Home
 ---
 
+<style>
+    /* Adjust profile picture size */
+    .profile-pic {
+        display: block;
+        margin: 20px auto;
+        width: 180px;  /* Adjust this size if needed */
+        height: auto;
+        border-radius: 10px; /* Keeps square corners, remove for round image */
+    }
+    
+    /* Increase spacing between sections */
+    h2 {
+        margin-top: 40px;
+    }
+
+    /* Fix footer spacing and remove duplicate name */
+    .site-footer {
+        display: none;  /* Hides the duplicate name */
+    }
+</style>
+
+<!-- Profile Picture -->
 <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
      alt="Alice Margonari" 
-     style="border-radius: 50%; width: 150px; height: 150px; display: block; margin: auto;">
+     class="profile-pic">
 
 ## About Me  
 I am a second-year PhD student specializing in **Consumer Behavior**. My research explores **how consumers form judgments and make decisions**, with a particular focus on **pro-social behavior**.  

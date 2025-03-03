@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-# Alice Margonari
 ### Ph.D. Student in Marketing | Bocconi University
 <style>
     /* Adjust profile picture size */

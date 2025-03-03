@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "PhD Student in Marketing | Bocconi University"
 ---
 
 <style>

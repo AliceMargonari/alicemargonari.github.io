@@ -39,10 +39,9 @@ One of my current projects investigates the impact of **different message framin
 🔹 Framing Effects in Marketing  
 
 
-
 ### 📄 Curriculum Vitae: [Download CV](cv.pdf) 
- 
 
+ 
 ## Contact  
 📧 Email: [alice.margonari@phd.unibocconi.it](mailto:alice.margonari@phd.unibocconi.it)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alice-margonari/)  

@@ -11,9 +11,7 @@ title: CV
 
 # Curriculum Vitae
 
-📄 **Download my CV**  
-Click the link below to download my latest CV:
 
-👉 **[Download CV](cv.pdf)**
+📄 **[Download CV](cv.pdf)**
 
 

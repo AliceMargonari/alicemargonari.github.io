@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# ![Alice Margonari](profile.jpg){:style="border-radius: 50%; width: 75px; display: block; margin: auto;"}
+# <img src="profile.jpg" alt="Alice Margonari" style="border-radius: 50%; width: 50px; height: 50px; display: block; margin: auto;">
 
 # Alice Margonari  
 **PhD Student in Marketing | Bocconi University**

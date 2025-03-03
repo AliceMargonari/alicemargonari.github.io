@@ -32,21 +32,15 @@ title: Home
 I am a second-year PhD student specializing in **Consumer Behavior**. My research explores **how consumers form judgments and make decisions**, with a particular focus on **pro-social behavior**.  
 
 One of my current projects investigates the impact of **different message framings on donation preferences**, aiming to understand how communication strategies influence charitable giving.
-
 &nbsp;
-
 ## Research Interests  
 🔹 Consumer Judgment & Decision-Making  
 🔹 Pro-Social Behavior & Donations  
 🔹 Framing Effects in Marketing  
-
 &nbsp;
-
 ## 📄 Curriculum Vitae  
 **[Download CV](cv.pdf)**
-
 &nbsp;
- 
 ## Contact  
 📧 Email: [alice.margonari@phd.unibocconi.it](mailto:alice.margonari@phd.unibocconi.it)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alice-margonari/)  

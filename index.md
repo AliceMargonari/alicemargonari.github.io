@@ -5,7 +5,7 @@ title: Home
 
 <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
      alt="Alice Margonari" 
-     style="border-radius: 50%; width: 120px; height: 120px; display: block; margin: auto;">
+     style="border-radius: 50%; width: 50px; height: 50px; display: block; margin: auto;">
 
 ## About Me  
 I am a second-year PhD student specializing in **Consumer Behavior**. My research explores **how consumers form judgments and make decisions**, with a particular focus on **pro-social behavior**.  

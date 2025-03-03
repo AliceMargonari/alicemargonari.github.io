@@ -38,7 +38,8 @@ One of my current projects investigates the impact of **different message framin
 🔹 Pro-Social Behavior & Donations  
 🔹 Framing Effects in Marketing  
 
-📄 **Curriculum Vitae: [Download CV](cv.pdf)**
+
+📄 #### Curriculum Vitae: [Download CV](cv.pdf) ####
  
 
 ## Contact  

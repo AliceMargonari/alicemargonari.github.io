@@ -2,7 +2,7 @@ theme: minima
 title: "Alice Margonari"
 description: "PhD Student in Marketing | Bocconi University"
 navigation:
-  - title: Home
-    url: /
   - title: CV
     url: /cv
+  - title: Home
+    url: /

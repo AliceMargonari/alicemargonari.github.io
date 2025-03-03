@@ -39,6 +39,7 @@ One of my current projects investigates the impact of **different message framin
 🔹 Framing Effects in Marketing  
 
 
+
 ### 📄 Curriculum Vitae: [Download CV](cv.pdf) 
  
 

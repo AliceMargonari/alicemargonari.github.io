@@ -39,7 +39,7 @@ One of my current projects investigates the impact of **different message framin
 &nbsp;
 ## Teaching Assistantship  
 🔹 Undergraduate: Marketing (since 2023)
-🔹 Graduate:  Brand Mangament (2021-2023), Understanding Consumer Behavior (2021-2022)  
+🔹 Graduate: Brand Mangament (2021-2023), Understanding Consumer Behavior (2021-2022)  
 &nbsp;
 ## 📄 Curriculum Vitae  
 **[Download CV](cv.pdf)**

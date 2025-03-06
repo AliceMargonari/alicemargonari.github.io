@@ -1,26 +1,25 @@
 /* === Site Header Styling === */
 .site-header {
-    background: #fff; /* White background */
-    border-bottom: 1px solid #ddd; /* Thin bottom border */
-    padding: 10px 20px;
-    display: flex; /* Forces header content in one row */
-    justify-content: space-between; /* Moves left and right sections apart */
-    align-items: center; /* Aligns text vertically */
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Left Side: Alice Margonari */
 .site-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
-    color: #2a7ae2; /* Minima’s default blue */
+    color: #2a7ae2;
     text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-right: auto; /* Pushes navigation to the right */
 }
 
 /* Right Side: Navigation Menu */
 .site-nav {
-    margin-left: auto; /* Pushes navigation to the right */
+    margin-left: auto;
 }
 
 /* Ensures navigation is inline */
@@ -28,9 +27,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Ensures items are in a row */
-    gap: 25px; /* Adds spacing between menu items */
-    align-items: center; /* Aligns text to center */
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 /* Removes bullet points */
@@ -44,10 +43,52 @@
 .site-nav .menu a {
     text-decoration: none;
     font-weight: bold;
-    color: #111; /* Default Minima text color */
+    color: #111;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: color 0.2s ease-in-out;
 }
 
 .site-nav .menu a:hover {
-    color: #2a7ae2; /* Minima’s blue hover color */
+    color: #2a7ae2;
+}
+
+/* === Body Styling === */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+/* Section Titles */
+h1, h2 {
+    color: #2a7ae2;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CV Download Section */
+.cv-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
 }

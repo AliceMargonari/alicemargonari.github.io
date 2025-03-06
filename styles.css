@@ -54,11 +54,13 @@
 }
 
 /* === Center the Ph.D. Subtitle === */
-.centered-title {
+.subtitle {
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
-    color: #333;
+    font-weight: normal;
+    color: #555;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
+

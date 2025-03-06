@@ -4,14 +4,15 @@
 
 <header class="site-header">
     <div class="wrapper">
+        <!-- Left side: Site title -->
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        
+        <!-- Right side: Navigation -->
         <nav class="site-nav">
-            <div class="trigger">
-                <ul class="menu">
-                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                    <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-                </ul>
-            </div>
+            <ul class="menu">
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+            </ul>
         </nav>
     </div>
 </header>

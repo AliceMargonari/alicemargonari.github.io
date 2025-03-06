@@ -6,40 +6,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    position: relative;
 }
 
 /* Left Side: Alice Margonari */
 .site-title {
     font-size: 22px;
     font-weight: bold;
-    color: #2a7ae2;
+    color: #2a7ae2; /* Minima’s default blue */
     text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    flex: 1; /* Allows space for centering */
-}
-
-/* Centered Subtitle */
-.site-subtitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #f8f9fa;
-    padding: 8px 15px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Right Side: Navigation Menu */
 .site-nav {
-    flex: 1;
-    text-align: right;
+    margin-left: auto;
 }
 
 /* Ensures navigation is inline */
@@ -73,43 +53,12 @@
     color: #2a7ae2;
 }
 
-/* === Body Styling === */
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    margin: 40px;
-}
-
-/* Section Titles */
-h1, h2 {
-    color: #2a7ae2;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Links */
-a {
-    color: #2a7ae2;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* CV Download Section */
-.cv-section {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
+/* === Center the Ph.D. Subtitle === */
+.centered-title {
     text-align: center;
+    font-size: 18px;
     font-weight: bold;
-}
-
-/* Contact Section */
-.contact-section {
-    background: #f1f1f1;
-    padding: 20px;
-    border-radius: 8px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
 }

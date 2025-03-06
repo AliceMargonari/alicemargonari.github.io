@@ -1,20 +1,23 @@
 /* === Site Header Styling === */
 .site-header {
     background: #fff; /* White background */
-    border-bottom: 1px solid #ddd; /* Light grey bottom border */
+    border-bottom: 1px solid #ddd; /* Thin bottom border */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Minima font & color */
 .site-title {
     font-size: 22px;
     font-weight: bold;
-    color: #333;
+    color: #2a7ae2; /* Minima’s default blue */
     text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Align menu to the right */
 .site-nav .menu {
     list-style: none;
     margin: 0;
@@ -22,16 +25,19 @@
     display: flex;
 }
 
+/* Space between Home and CV links */
 .site-nav .menu li {
     margin-left: 20px;
 }
 
+/* Minima-style links */
 .site-nav .menu a {
     text-decoration: none;
     font-weight: bold;
-    color: #0056b3;
+    color: #111; /* Default Minima text color */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .site-nav .menu a:hover {
-    color: #003366;
+    color: #2a7ae2; /* Minima’s blue hover color */
 }

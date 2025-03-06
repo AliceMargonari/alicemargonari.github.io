@@ -8,19 +8,22 @@
     align-items: center;
 }
 
-/* Left Side: Alice Margonari */
-.site-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #2a7ae2; /* Minima’s default blue */
-    text-decoration: none;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* === Align Navigation to the Right === */
+.site-nav {
+    margin-left: auto; /* Pushes menu to the right */
 }
 
-/* Right Side: Navigation Menu */
-.site-nav {
-    margin-left: auto;
+/* Ensures navigation is inline */
+.site-nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aligns Home and CV in a row */
+    gap: 15px; /* Adds spacing between menu items */
+    align-items: center; /* Aligns items vertically */
+    justify-content: flex-end; /* Pushes items to the right */
 }
+
 
 /* Ensures navigation is inline */
 .site-nav .menu {

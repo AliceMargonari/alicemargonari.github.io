@@ -2,7 +2,8 @@
 layout: default
 title: Home
 ---
-### Ph.D. Student in Marketing | Bocconi University
+# **Alice Margonari**  
+### *Ph.D. Student in Marketing | Bocconi University*
 <style>
     /* Adjust profile picture size */
     .profile-pic {
@@ -30,17 +31,17 @@ title: Home
   
 I am a second-year PhD student specializing in **Consumer Behavior**. My research explores **how consumers form judgments and make decisions**, with a particular focus on **pro-social behavior**.  
 
-One of my current projects investigates the impact of **different message framings on donation preferences**, aiming to understand how communication strategies influence charitable giving.
+One of my current projects investigates the impact of **different message framings on donation preferences**, aiming to understand how communication strategies influence charitable giving. 
 &nbsp;
-## Research Interests  
-🔹 Consumer Judgment & Decision-Making  
-🔹 Pro-Social Behavior & Donations  
-🔹 Framing Effects in Marketing  
+## **Research Interests**  
+✔️ **Consumer Judgment & Decision-Making**  
+✔️ **Pro-Social Behavior & Donations**  
+✔️ **Framing Effects in Marketing**   
 &nbsp;
 ## 📄 Curriculum Vitae  
 **[Download CV](cv.pdf)**
 &nbsp;  
-## Contact  
+## **📬 Contact**    
 <a href="mailto:alice.margonari@phd.unibocconi.it">
     <img src="https://raw.githubusercontent.com/AliceMargonari/alicemargonari.github.io/main/bocconi_logo.png" 
          alt="Bocconi University" 
@@ -56,6 +57,3 @@ One of my current projects investigates the impact of **different message framin
          style="vertical-align: middle; margin-right: 5px;">
     LinkedIn
 </a>
-
-
-

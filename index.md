@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-permalink: /
 ---
 ### Ph.D. Student in Marketing | Bocconi University
 <style>

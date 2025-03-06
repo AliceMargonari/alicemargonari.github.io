@@ -55,12 +55,13 @@
 
 /* === Center the Ph.D. Subtitle === */
 .subtitle {
+    display: block;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
     color: #555;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
+
 

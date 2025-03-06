@@ -2,7 +2,6 @@
 layout: default
 title: Home
 permalink: /
-order: 1
 ---
 ### Ph.D. Student in Marketing | Bocconi University
 <style>

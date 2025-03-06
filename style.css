@@ -15,6 +15,7 @@
     color: #2a7ae2; /* Minima’s default blue */
     text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: auto; /* Pushes navigation to the right */
 }
 
 /* Right Side: Navigation Menu */
@@ -27,9 +28,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Forces items to be in a row */
-    gap: 20px; /* Adds spacing between menu items */
-    align-items: center;
+    display: flex; /* Ensures items are in a row */
+    gap: 25px; /* Adds spacing between menu items */
+    align-items: center; /* Aligns text to center */
 }
 
 /* Removes bullet points */

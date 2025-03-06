@@ -3,12 +3,12 @@
     background: #fff; /* White background */
     border-bottom: 1px solid #ddd; /* Thin bottom border */
     padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Forces header content in one row */
+    justify-content: space-between; /* Moves left and right sections apart */
+    align-items: center; /* Aligns text vertically */
 }
 
-/* Minima font & color */
+/* Left Side: Alice Margonari */
 .site-title {
     font-size: 22px;
     font-weight: bold;
@@ -17,17 +17,19 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Align navigation menu to the right */
+/* Right Side: Navigation Menu */
 .site-nav {
-    margin-left: auto;
+    margin-left: auto; /* Pushes navigation to the right */
 }
 
+/* Ensures navigation is inline */
 .site-nav .menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Ensures items are in a row */
+    display: flex; /* Forces items to be in a row */
     gap: 20px; /* Adds spacing between menu items */
+    align-items: center;
 }
 
 /* Removes bullet points */
@@ -37,7 +39,7 @@
     padding: 0;
 }
 
-/* Minima-style links */
+/* Styling for Home and CV links */
 .site-nav .menu a {
     text-decoration: none;
     font-weight: bold;

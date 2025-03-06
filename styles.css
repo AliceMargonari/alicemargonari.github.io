@@ -53,16 +53,17 @@
     color: #2a7ae2;
 }
 
-/* === Center, Italicize, and Adjust Subtitle === */
+/* === Center, Italicize, and Resize Subtitle === */
 .subtitle {
     display: block;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px; /* Increased size */
     font-style: italic;
-    color: #666; /* Slightly lighter gray for a softer look */
+    color: #555; /* Softer gray */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    font-weight: normal;
+    margin: 15px auto 20px auto;
 }
+
 
 

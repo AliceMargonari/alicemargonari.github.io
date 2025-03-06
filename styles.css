@@ -8,42 +8,49 @@
     align-items: center;
 }
 
-/* === Align Navigation to the Right === */
+/* === Ensure Header is a Flexbox to Align Content === */
+.site-header {
+    display: flex;
+    justify-content: space-between; /* Moves left and right sections apart */
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Left Side: Alice Margonari */
+.site-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a7ae2;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+/* Right Side: Align Navigation to the Right */
 .site-nav {
     margin-left: auto; /* Pushes menu to the right */
 }
 
-/* Ensures navigation is inline */
+/* Ensures Navigation is Inline */
 .site-nav .menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Aligns Home and CV in a row */
-    gap: 15px; /* Adds spacing between menu items */
-    align-items: center; /* Aligns items vertically */
+    display: flex; /* Makes "Home" and "CV" stay in a row */
+    gap: 20px; /* Adds spacing between menu items */
+    align-items: center;
     justify-content: flex-end; /* Pushes items to the right */
 }
 
-
-/* Ensures navigation is inline */
-.site-nav .menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-/* Removes bullet points */
+/* Removes Bullet Points */
 .site-nav .menu li {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-/* Styling for Home and CV links */
+/* Styling for Home and CV Links */
 .site-nav .menu a {
     text-decoration: none;
     font-weight: bold;
@@ -55,6 +62,7 @@
 .site-nav .menu a:hover {
     color: #2a7ae2;
 }
+
 
 /* === Center, Italicize, and Resize Subtitle === */
 .subtitle {

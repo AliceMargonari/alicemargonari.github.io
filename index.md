@@ -41,14 +41,15 @@ One of my current projects investigates the impact of **different message framin
 **[Download CV](cv.pdf)**
 &nbsp;
 ## Contact  
-📧 <a href="mailto:alice.margonari@phd.unibocconi.it">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Logo_Bocconi.png" 
+<a href="mailto:alice.margonari@phd.unibocconi.it">
+    <img src="https://www.unibocconi.eu/wps/wcm/connect/d248ea51-72a8-4b93-bdc5-3a9e158b4be1/Bocconi.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-d248ea51-72a8-4b93-bdc5-3a9e158b4be1-nB2u87F" 
          alt="Bocconi University" 
          width="20" 
          style="vertical-align: middle; margin-right: 5px;">
     alice.margonari@phd.unibocconi.it
-</a>  
-🔗 <a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">
+</a>
+  
+ <a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
          alt="LinkedIn" 
          width="20" 

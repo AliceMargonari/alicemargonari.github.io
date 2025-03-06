@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<p class="subtitle"><em>Ph.D. Student in Marketing | Bocconi University</em></p>
+<div class="subtitle">Ph.D. Student in Marketing | Bocconi University</div>
 
 <style>
     /* Adjust profile picture size */

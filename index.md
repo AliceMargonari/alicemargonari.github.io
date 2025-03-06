@@ -37,9 +37,7 @@ One of my current projects investigates the impact of **different message framin
 ✔️ **Consumer Judgment & Decision-Making**  
 ✔️ **Pro-Social Behavior & Donations**  
 ✔️ **Framing Effects in Marketing**   
-&nbsp;
-## 📄 Curriculum Vitae  
-**[Download CV](cv.pdf)**
+
 &nbsp;  
 ## **📬 Contact**    
 <a href="mailto:alice.margonari@phd.unibocconi.it">
@@ -48,8 +46,7 @@ One of my current projects investigates the impact of **different message framin
          width="20" 
          style="vertical-align: middle; margin-right: 5px;">
     alice.margonari@phd.unibocconi.it
-</a>  
-<br>  
+</a>   
 <a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
          alt="LinkedIn" 

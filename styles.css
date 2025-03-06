@@ -53,15 +53,16 @@
     color: #2a7ae2;
 }
 
-/* === Center the Ph.D. Subtitle === */
+/* === Center, Italicize, and Adjust Subtitle === */
 .subtitle {
     display: block;
     text-align: center;
-    font-size: 18px;
-    font-weight: normal;
-    color: #555;
+    font-size: 16px;
+    font-style: italic;
+    color: #666; /* Slightly lighter gray for a softer look */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 20px auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 

@@ -17,17 +17,24 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Align menu to the right */
+/* Align navigation menu to the right */
+.site-nav {
+    margin-left: auto;
+}
+
 .site-nav .menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; /* Ensures items are in a row */
+    gap: 20px; /* Adds spacing between menu items */
 }
 
-/* Space between Home and CV links */
+/* Removes bullet points */
 .site-nav .menu li {
-    margin-left: 20px;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 /* Minima-style links */

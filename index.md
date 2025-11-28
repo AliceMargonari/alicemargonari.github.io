@@ -86,51 +86,54 @@ h1, h2 {
   </style>
 </head>
 <body>
+
+  <!-- Navigation -->
   <header class="site-header">
-  <div class="site-title">Alice Margonari</div>
-  <nav class="site-nav">
-    <ul class="menu">
-      <li><a href="#about">About</a></li>
-      <li><a href="cv.pdf" target="_blank">CV</a></li>
-    </ul>
-  </nav>
-</header>
+    <div class="site-title">Alice Margonari</div>
+    <nav class="site-nav">
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="cv.pdf" target="_blank">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
   <div class="container">
-    <header>
-  <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
-       alt="Alice Margonari" 
-       class="profile-pic" />
-  <h1>Alice Margonari</h1>
-  <div class="subtitle">Ph.D. Student in Marketing | Bocconi University</div>
-</header>
 
+    <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4"
+         alt="Alice Margonari"
+         class="profile-pic" />
 
-<section id="about">
-  <p>
-    I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
-    My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>, 
-    with a particular interest in how cognitive processes shape decision-making in marketing contexts.
-  </p>
-  <p>
-    More specifically, my work explores how <strong>different presentations of information</strong> affect consumer <strong>trust</strong> and <strong>support</strong>— 
-    including trust in <em>public statements</em> (e.g., political or governmental announcements), 
-    <em>corporate communications</em> (e.g., company responses to social or environmental issues), 
-    and <em>emerging technologies</em> (e.g., AI-generated content).
-  </p>
-</section>
+    <h1>Alice Margonari</h1>
+    <div class="subtitle">Ph.D. Student in Marketing | Bocconi University</div>
 
+    <section id="about">
+      <p>
+        I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
+        My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>,
+        with a particular interest in how cognitive processes shape decision-making in marketing contexts.
+      </p>
+      <p>
+        More specifically, my work explores how <strong>different presentations of information</strong> affect consumer 
+        <strong>trust</strong> and <strong>support</strong> — including trust in 
+        <em>public statements</em>, <em>corporate communications</em>, and <em>emerging technologies</em>.
+      </p>
+    </section>
 
     <section>
       <h2>Contact</h2>
       <p>
-        <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br/>
-        <a href="https://www.linkedin.com/in/alice-margonari/)" target="_blank">LinkedIn Profile</a>
+        <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br>
+        <a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">LinkedIn Profile</a>
       </p>
     </section>
 
     <footer>
       &copy; 2025 Alice Margonari
     </footer>
+
   </div>
+
 </body>
-</html>
+

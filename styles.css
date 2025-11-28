@@ -1,4 +1,4 @@
-/* === Fonts (Updated in <head> separately) === */
+/* === Fonts === */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Header container */
+/* === Navigation Bar === */
 .site-header {
     background: #fff;
     border-bottom: 2px solid #ddd;
@@ -17,19 +17,13 @@ body {
     align-items: center;
 }
 
-/* Non-clickable name */
 .site-title {
     font-size: 24px;
     font-weight: 700;
     color: #222;
     font-family: 'Merriweather', serif;
     margin: 0;
-    pointer-events: none; /* makes it non-clickable if mistakenly wrapped */
-}
-
-/* Navigation menu */
-.site-nav {
-    margin-left: auto;
+    pointer-events: none;
 }
 
 .site-nav .menu {
@@ -41,36 +35,61 @@ body {
     align-items: center;
 }
 
-.site-nav .menu li {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
 .site-nav .menu a {
     text-decoration: none;
     font-weight: 600;
     color: #222;
     font-family: 'Open Sans', sans-serif;
-    transition: color 0.2s ease-in-out;
 }
 
 .site-nav .menu a:hover {
     color: #555;
 }
 
-/* Section Headings */
+/* === Main container === */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* === Hero section (picture + name) === */
+.profile-pic {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+}
+
+/* === Section headings === */
 h2 {
     font-family: 'Merriweather', serif;
     font-size: 22px;
     color: #222;
     border-bottom: 1px solid #e6e6e6;
-    padding-bottom: 6px;
-    margin-top: 45px;
-    font-weight: 700;
+    padding-bottom: 5px;
+    margin-top: 40px;
 }
 
-/* Contact Links: neutral color, no blue */
+/* === Links (NO BLUE ANYMORE) === */
 a {
     color: #222;
     text-decoration: none;
@@ -81,4 +100,8 @@ a:hover {
     text-decoration: underline;
 }
 
-
+/* Lists */
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}

@@ -86,6 +86,15 @@ h1, h2 {
   </style>
 </head>
 <body>
+  <header class="site-header">
+  <div class="site-title">Alice Margonari</div>
+  <nav class="site-nav">
+    <ul class="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="cv.pdf" target="_blank">CV</a></li>
+    </ul>
+  </nav>
+</header>
   <div class="container">
     <header>
   <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
@@ -96,7 +105,7 @@ h1, h2 {
 </header>
 
 
-<section>
+<section id="about">
   <p>
     I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
     My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>, 

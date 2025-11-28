@@ -99,7 +99,7 @@ h1, h2 {
 <section>
   <p>
     I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
-    My research investigates how consumers <strong>process information<strong> and <strong>form judgments</strong>, 
+    My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>, 
     with a particular interest in how cognitive processes shape decision-making in marketing contexts.
   </p>
   <p>

@@ -4,16 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Alice Margonari | PhD in Marketing</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Libre+Baskerville&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
-    }
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  background: #f9f9f9;
+}
+h1, h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
 
     .container {
       max-width: 800px;
@@ -29,12 +30,14 @@
     }
 
     .profile-pic {
-      width: 160px;
-      height: auto;
-      border-radius: 10px;
-      display: block;
-      margin: 0 auto 15px;
-    }
+  width: 220px; /* Increased size */
+  height: auto;
+  border-radius: 8px; /* Subtle curve */
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
 
     h1 {
       font-size: 28px;
@@ -59,14 +62,11 @@
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
-    }
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
 
-    ul li::before {
-      content: "✔️ ";
-      color: green;
-    }
 
     a {
       color: #2a7ae2;
@@ -99,14 +99,14 @@
 <section>
   <p>
     I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
-    My research investigates how consumers process information and form judgments, 
+    My research investigates how consumers <strong>process information<strong> and <strong>form judgments<strong>, 
     with a particular interest in how cognitive processes shape decision-making in marketing contexts.
   </p>
   <p>
-    More specifically, my work explores how different presentations of information affect consumer trust and support— 
-    including trust in public statements (e.g., political or governmental announcements), 
-    corporate communications (e.g., company responses to social or environmental issues), 
-    and emerging technologies (e.g., AI-generated content).
+    More specifically, my work explores how <strong>different presentations of information<strong> affect consumer <strong>trust<strong> and <strong>support<strong>— 
+    including trust in <em>public statements</em> (e.g., political or governmental announcements), 
+    <em>corporate communications</em> (e.g., company responses to social or environmental issues), 
+    and <em>emerging technologies</em> (e.g., AI-generated content).
   </p>
 </section>
 
@@ -114,7 +114,6 @@
     <section>
       <h2>Contact</h2>
       <p>
-        Bocconi University<br/>
         <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br/>
         <a href="https://www.linkedin.com/in/alice-margonari/)" target="_blank">LinkedIn Profile</a>
       </p>

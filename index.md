@@ -96,26 +96,20 @@
 </header>
 
 
-    <section>
-      <p>
-        I am a second-year PhD student specializing in <strong>Consumer Behavior</strong>. 
-        My research explores how consumers form judgments and make decisions, 
-        with a particular focus on <strong>pro-social behavior</strong>.
-      </p>
-      <p>
-        One of my current projects investigates how different <em>message framings</em> influence 
-        <strong>donation preferences</strong>, aiming to understand how communication strategies shape charitable giving.
-      </p>
-    </section>
+<section>
+  <p>
+    I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
+    My research investigates how consumers process information and form judgments, 
+    with a particular interest in how cognitive processes shape decision-making in marketing contexts.
+  </p>
+  <p>
+    More specifically, my work explores how different presentations of information affect consumer trust and support— 
+    including trust in public statements (e.g., political or governmental announcements), 
+    corporate communications (e.g., company responses to social or environmental issues), 
+    and emerging technologies (e.g., AI-generated content).
+  </p>
+</section>
 
-    <section>
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Consumer Judgment & Decision-Making</li>
-        <li>Pro-Social Behavior & Donations</li>
-        <li>Framing Effects in Marketing</li>
-      </ul>
-    </section>
 
     <section>
       <h2>Contact</h2>

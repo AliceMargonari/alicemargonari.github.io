@@ -87,7 +87,7 @@ h1, h2 {
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- SINGLE NAVIGATION BAR -->
   <header class="site-header">
     <div class="site-title">Alice Margonari</div>
     <nav class="site-nav">
@@ -98,10 +98,9 @@ h1, h2 {
     </nav>
   </header>
 
-  <!-- Main content -->
+  <!-- MAIN CONTENT -->
   <div class="container">
-
-    <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4"
+    <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
          alt="Alice Margonari"
          class="profile-pic" />
 
@@ -111,20 +110,21 @@ h1, h2 {
     <section id="about">
       <p>
         I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
-        My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>,
+        My research investigates how consumers <strong>process information</strong> and <strong>form judgments</strong>, 
         with a particular interest in how cognitive processes shape decision-making in marketing contexts.
       </p>
       <p>
-        More specifically, my work explores how <strong>different presentations of information</strong> affect consumer 
-        <strong>trust</strong> and <strong>support</strong> — including trust in 
-        <em>public statements</em>, <em>corporate communications</em>, and <em>emerging technologies</em>.
+        More specifically, my work explores how <strong>different presentations of information</strong> affect consumer <strong>trust</strong> and <strong>support</strong>— 
+        including trust in <em>public statements</em> (e.g., political or governmental announcements), 
+        <em>corporate communications</em> (e.g., company responses to social or environmental issues), 
+        and <em>emerging technologies</em> (e.g., AI-generated content).
       </p>
     </section>
 
     <section>
       <h2>Contact</h2>
       <p>
-        <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br>
+        <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br/>
         <a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">LinkedIn Profile</a>
       </p>
     </section>
@@ -132,8 +132,5 @@ h1, h2 {
     <footer>
       &copy; 2025 Alice Margonari
     </footer>
-
   </div>
-
 </body>
-

@@ -1,84 +1,4 @@
-/* === Site Header Styling === */
-.site-header {
-    background: #fff;
-    border-bottom: 2px solid #ddd;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* === Ensure Header is a Flexbox to Align Content === */
-.site-header {
-    display: flex;
-    justify-content: space-between; /* Moves left and right sections apart */
-    align-items: center;
-    padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
-}
-
-/* Left Side: Alice Margonari */
-.site-title {
-    font-size: 22px;
-    font-weight: bold;
-    color: #2a7ae2;
-    text-decoration: none;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-}
-
-/* Right Side: Align Navigation to the Right */
-.site-nav {
-    margin-left: auto; /* Pushes menu to the right */
-}
-
-/* Ensures Navigation is Inline */
-.site-nav .menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Makes "Home" and "CV" stay in a row */
-    gap: 20px; /* Adds spacing between menu items */
-    align-items: center;
-    justify-content: flex-end; /* Pushes items to the right */
-}
-
-/* Removes Bullet Points */
-.site-nav .menu li {
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
-
-/* Styling for Home and CV Links */
-.site-nav .menu a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #111;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    transition: color 0.2s ease-in-out;
-}
-
-.site-nav .menu a:hover {
-    color: #2a7ae2;
-}
-
-
-/* === Center, Italicize, and Resize Subtitle === */
-.subtitle {
-    display: block;
-    text-align: center;
-    font-size: 20px; /* Increased size */
-    font-style: italic;
-    color: #555; /* Softer gray */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    margin: 15px auto 20px auto;
-}
-
-
-
-/* === Fonts (Merriweather for headers, Open Sans for body) === */
+/* === Fonts (Updated in <head> separately) === */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
@@ -87,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* === Site Header Styling === */
+/* Header container */
 .site-header {
     background: #fff;
     border-bottom: 2px solid #ddd;
@@ -97,22 +17,21 @@ body {
     align-items: center;
 }
 
-/* Left Side: Name */
+/* Non-clickable name */
 .site-title {
     font-size: 24px;
     font-weight: 700;
-    color: #222;  /* No more blue */
-    text-decoration: none;
-    font-family: 'Merriweather', serif; /* Professional serif */
+    color: #222;
+    font-family: 'Merriweather', serif;
     margin: 0;
+    pointer-events: none; /* makes it non-clickable if mistakenly wrapped */
 }
 
-/* Right Side: Navigation */
+/* Navigation menu */
 .site-nav {
     margin-left: auto;
 }
 
-/* Menu layout */
 .site-nav .menu {
     list-style: none;
     margin: 0;
@@ -122,44 +41,44 @@ body {
     align-items: center;
 }
 
-/* Remove bullets */
 .site-nav .menu li {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
-/* Menu links */
 .site-nav .menu a {
     text-decoration: none;
     font-weight: 600;
-    color: #222; /* No more blue */
+    color: #222;
     font-family: 'Open Sans', sans-serif;
     transition: color 0.2s ease-in-out;
 }
 
 .site-nav .menu a:hover {
-    color: #555; /* Elegant gray hover */
+    color: #555;
 }
 
-/* Subtitle (below name) */
-.subtitle {
-    display: block;
-    text-align: center;
-    font-size: 19px;
-    font-style: italic;
-    color: #666;
-    font-family: 'Open Sans', sans-serif;
-    margin: 18px auto 22px auto;
-}
-
-/* Headers (section titles) */
+/* Section Headings */
 h2 {
     font-family: 'Merriweather', serif;
     font-size: 22px;
-    color: #222;  /* No blue */
+    color: #222;
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 6px;
     margin-top: 45px;
     font-weight: 700;
 }
+
+/* Contact Links: neutral color, no blue */
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+

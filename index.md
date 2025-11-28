@@ -99,11 +99,11 @@ h1, h2 {
 <section>
   <p>
     I am a third-year PhD candidate in Marketing at <strong>Bocconi University</strong>. 
-    My research investigates how consumers <strong>process information<strong> and <strong>form judgments<strong>, 
+    My research investigates how consumers <strong>process information<strong> and <strong>form judgments</strong>, 
     with a particular interest in how cognitive processes shape decision-making in marketing contexts.
   </p>
   <p>
-    More specifically, my work explores how <strong>different presentations of information<strong> affect consumer <strong>trust<strong> and <strong>support<strong>— 
+    More specifically, my work explores how <strong>different presentations of information</strong> affect consumer <strong>trust</strong> and <strong>support</strong>— 
     including trust in <em>public statements</em> (e.g., political or governmental announcements), 
     <em>corporate communications</em> (e.g., company responses to social or environmental issues), 
     and <em>emerging technologies</em> (e.g., AI-generated content).

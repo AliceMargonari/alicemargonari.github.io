@@ -1,56 +1,135 @@
----
-layout: default
-title: Home
----
-<div class="subtitle">Ph.D. Student in Marketing | Bocconi University</div>
 
-<style>
-    /* Adjust profile picture size */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alice Margonari | PhD in Marketing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
     .profile-pic {
-        display: block;
-        margin: 20px auto;
-        width: 400px;  /* Adjust this size if needed */
-        height: auto;
-        border-radius: 10px; /* Keeps square corners, remove for round image */
+      width: 160px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 15px;
     }
-    
-    /* Increase spacing between sections */
+
+    h1 {
+      font-size: 28px;
+      margin: 10px 0 5px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      font-style: italic;
+      color: #555;
+    }
+
+    section {
+      margin-top: 40px;
+    }
+
     h2 {
-        margin-top: 40px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      font-size: 20px;
+      color: #2a7ae2;
     }
 
-    /* Fix footer spacing and remove duplicate name */
-    .site-footer {
-        display: none;  /* Hides the duplicate name */
+    ul {
+      list-style: none;
+      padding-left: 0;
     }
-</style>
-<!-- Profile Picture -->
-<img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
-     alt="Alice Margonari" 
-     class="profile-pic">
-  
-I am a second-year PhD student specializing in **Consumer Behavior**. My research explores **how consumers form judgments and make decisions**, with a particular focus on **pro-social behavior**.  
 
-One of my current projects investigates the impact of **different message framings on donation preferences**, aiming to understand how communication strategies influence charitable giving. 
-&nbsp;
-## **Research Interests**  
-✔️ **Consumer Judgment & Decision-Making**  
-✔️ **Pro-Social Behavior & Donations**  
-✔️ **Framing Effects in Marketing**   
+    ul li::before {
+      content: "✔️ ";
+      color: green;
+    }
 
-&nbsp;  
-## **📬 Contact**    
-<a href="mailto:alice.margonari@phd.unibocconi.it">
-    <img src="https://raw.githubusercontent.com/AliceMargonari/alicemargonari.github.io/main/bocconi_logo.png" 
-         alt="Bocconi University" 
-         width="20" 
-         style="vertical-align: middle; margin-right: 5px;">
-    alice.margonari@phd.unibocconi.it
-</a>   
-<a href="https://www.linkedin.com/in/alice-margonari/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
-         alt="LinkedIn" 
-         width="20" 
-         style="vertical-align: middle; margin-right: 5px;">
-    LinkedIn
-</a>
+    a {
+      color: #2a7ae2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+  <img src="https://github.com/user-attachments/assets/7872cefe-e5ab-4a2c-a4c6-237d963ab0a4" 
+       alt="Alice Margonari" 
+       class="profile-pic" />
+  <h1>Alice Margonari</h1>
+  <div class="subtitle">Ph.D. Student in Marketing | Bocconi University</div>
+</header>
+
+
+    <section>
+      <p>
+        I am a second-year PhD student specializing in <strong>Consumer Behavior</strong>. 
+        My research explores how consumers form judgments and make decisions, 
+        with a particular focus on <strong>pro-social behavior</strong>.
+      </p>
+      <p>
+        One of my current projects investigates how different <em>message framings</em> influence 
+        <strong>donation preferences</strong>, aiming to understand how communication strategies shape charitable giving.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Consumer Judgment & Decision-Making</li>
+        <li>Pro-Social Behavior & Donations</li>
+        <li>Framing Effects in Marketing</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Bocconi University<br/>
+        <a href="mailto:alice.margonari@phd.unibocconi.it">alice.margonari@phd.unibocconi.it</a><br/>
+        <a href="https://www.linkedin.com/in/alice-margonari/)" target="_blank">LinkedIn Profile</a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2025 Alice Margonari
+    </footer>
+  </div>
+</body>
+</html>
